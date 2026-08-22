@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Primary Meta Tags -->
+  <title>Taher El-Sayed | Aspiring .NET Backend Developer</title>
+  <meta name="title" content="Taher El-Sayed | Aspiring .NET Backend Developer">
+  <meta name="description"
+    content="Taher El-Sayed is an Information Technology student at Delta Technological University developing skills in C#, .NET, ASP.NET Core, Web APIs, Entity Framework Core, and SQL Server.">
+  <meta name="keywords"
+    content="Taher El-Sayed, .NET Backend Developer, C#, ASP.NET Core, Web API, Entity Framework Core, SQL Server, Database Design, Delta Technological University, Software Development">
+  <meta name="author" content="Taher El-Sayed">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0a0f1d">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://taher-harbe.github.io/">
+  <meta property="og:title" content="Taher El-Sayed | Aspiring .NET Backend Developer">
+  <meta property="og:description"
+    content="Information Technology student specializing in C#, .NET, ASP.NET Core, Web APIs, Entity Framework Core, and SQL Server backend development.">
+  <meta property="og:image" content="assets/profile.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://taher-harbe.github.io/">
+  <meta property="twitter:title" content="Taher El-Sayed | Aspiring .NET Backend Developer">
+  <meta property="twitter:description"
+    content="Information Technology student specializing in C#, .NET, ASP.NET Core, Web APIs, Entity Framework Core, and SQL Server backend development.">
+  <meta property="twitter:image" content="assets/profile.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23512BD4'/><text x='50%' y='55%' dominant-baseline='central' text-anchor='middle' font-family='sans-serif' font-weight='800' font-size='52' fill='white'>.NET</text></svg>">
+
+  <!-- Google Fonts Preconnect & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-bar" id="scrollProgressBar" aria-hidden="true"></div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#hero" class="nav-logo" aria-label="Taher El-Sayed Home">
+        <span class="logo-bracket">&lt;</span><span class="logo-name">Taher</span><span class="logo-slash">/&gt;</span>
+        <span class="logo-badge">.NET</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Menu -->
+      <nav class="nav-wrapper" id="navWrapper" aria-label="Primary Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#focus" class="nav-link">Focus</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#roadmap" class="nav-link">Roadmap</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#journey" class="nav-link">Journey</a></li>
+          <li class="nav-item"><a href="#objective" class="nav-link">Objective</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Controls -->
+      <div class="header-controls">
+        <button id="themeToggle" class="theme-toggle-btn" type="button" aria-label="Switch to light mode"
+          title="Toggle theme">
+          <svg class="theme-icon sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+          <svg class="theme-icon moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <a href="https://wa.me/201094966547" target="_blank" rel="noopener noreferrer" class="btn-nav-whatsapp"
+          aria-label="Chat on WhatsApp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"
+            aria-hidden="true">
+            <path
+              d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+          </svg>
+          <span>WhatsApp</span>
+        </a>
+
+        <button id="mobileMenuBtn" class="hamburger-btn" type="button" aria-label="Open mobile navigation menu"
+          aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg-glow" aria-hidden="true"></div>
+      <div class="container hero-container">
+        <!-- Hero Left / Top Column: Circular Profile Image with Floating Badges -->
+        <div class="hero-avatar-column reveal-fade">
+          <div class="avatar-circle-container">
+            <!-- Ambient Glow Background -->
+            <div class="avatar-glow-backdrop" aria-hidden="true"></div>
+
+            <!-- Rotating Gradient Ring -->
+            <div class="avatar-gradient-border-ring" aria-hidden="true"></div>
+
+            <!-- Main Circular Frame -->
+            <div class="avatar-circle-frame">
+              <img src="assets/profile.jpg" alt="Taher El-Sayed - Aspiring .NET Backend Developer"
+                class="hero-avatar-img" width="320" height="320" loading="eager">
+            </div>
+
+            <!-- Floating Tech Badge 1: .NET (Top-Right) -->
+            <div class="floating-tech-badge badge-top-right" aria-hidden="true" title=".NET Platform">
+              <span class="tech-badge-icon badge-icon-dotnet">.NET</span>
+              <span class="tech-badge-label">Backend</span>
+            </div>
+
+            <!-- Floating Tech Badge 2: SQL Server (Bottom-Left) -->
+            <div class="floating-tech-badge badge-bottom-left" aria-hidden="true" title="SQL Server Database">
+              <span class="tech-badge-icon badge-icon-sql">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                  <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" />
+                </svg>
+              </span>
+              <span class="tech-badge-label">SQL Server</span>
+            </div>
+
+            <!-- Status Badge on Avatar -->
+            <div class="avatar-status-pill">
+              <span class="status-pulse-dot" aria-hidden="true"></span>
+              <span class="status-text">Open to Learning &amp; Opportunities</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Content & Description -->
+        <div class="hero-content-column reveal-slide-up">
+          <div class="hero-role-badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            <span>Software Development Student</span>
+          </div>
+
+          <h1 class="hero-name">Taher El-Sayed</h1>
+          <h2 class="hero-title">Aspiring .NET Backend Developer</h2>
+
+          <p class="hero-intro">
+            I am an Information Technology student at Delta Technological University, currently developing my skills in
+            <strong class="highlight-tech">C#</strong>, <strong class="highlight-tech">.NET</strong>, <strong
+              class="highlight-tech">ASP.NET Core</strong>,
+            <strong class="highlight-tech">Web APIs</strong>, and <strong class="highlight-tech">SQL Server</strong>
+            with a strong interest in Backend Development.
+          </p>
+
+          <p class="hero-supporting">
+            I enjoy understanding what happens behind the user interface, how APIs communicate with databases, and how
+            backend systems work internally.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-actions">
+            <a href="#skills" class="btn btn-primary">
+              <span>View Skills</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/taher-el-sayed-attia-5bbb92278?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              target="_blank" rel="noopener noreferrer" class="btn btn-ghost"
+              aria-label="Visit Taher's LinkedIn Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/Taher-harbe" target="_blank" rel="noopener noreferrer" class="btn btn-ghost"
+              aria-label="Visit Taher's GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+
+          <!-- Refined Backend Technical API Simulation Card -->
+          <div class="api-preview-card" aria-label="API Request/Response Simulation">
+            <div class="api-preview-header">
+              <div class="window-dots" aria-hidden="true">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="api-endpoint-badge">
+                <span class="http-verb">GET</span>
+                <span class="endpoint-url">/api/v1/developer/taher</span>
+              </div>
+              <span class="status-pill status-200">200 OK</span>
+            </div>
+            <div class="api-preview-body">
+              <pre class="code-block"><code><span class="json-bracket">{</span>
+  <span class="json-key">"developer"</span>: <span class="json-string">"Taher El-Sayed"</span>,
+  <span class="json-key">"role"</span>: <span class="json-string">"Aspiring .NET Backend Developer"</span>,
+  <span class="json-key">"university"</span>: <span class="json-string">"Delta Technological University"</span>,
+  <span class="json-key">"primaryStack"</span>: <span class="json-bracket">[</span><span class="json-string">"C#"</span>, <span class="json-string">".NET"</span>, <span class="json-string">"ASP.NET Core"</span>, <span class="json-string">"EF Core"</span>, <span class="json-string">"SQL Server"</span><span class="json-bracket">]</span>,
+  <span class="json-key">"status"</span>: <span class="json-string">"Currently Learning &amp; Building Foundations"</span>
+<span class="json-bracket">}</span></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative-card reveal-slide-up">
+            <div class="about-icon-header">
+              <div class="feature-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                  <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                </svg>
+              </div>
+              <span class="card-kicker">Faculty of Technology of Industry and Energy</span>
+            </div>
+
+            <p class="about-text">
+              I am an Information Technology student at <strong>Delta Technological University</strong>, Faculty of
+              Technology of Industry and Energy, specializing in the <strong>Software Development Track</strong>.
+            </p>
+            <p class="about-text">
+              My current focus is Backend Development using the Microsoft <strong>.NET ecosystem</strong>. I am actively
+              developing my knowledge of <strong>C#, .NET, ASP.NET Core, Web APIs, Entity Framework Core</strong>, and
+              <strong>SQL Server</strong>.
+            </p>
+            <p class="about-text">
+              I am particularly interested in backend logic, API development, database integration, and understanding
+              how different components of a software system communicate.
+            </p>
+
+            <div class="authenticity-note">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="16" x2="12" y2="12" />
+                <line x1="12" y1="8" x2="12.01" y2="8" />
+              </svg>
+              <span>I am currently building my technical foundation and practical skills rather than claiming
+                professional development experience.</span>
+            </div>
+          </div>
+
+          <!-- About Key Focus Pillars -->
+          <div class="about-pillars-grid reveal-slide-up">
+            <div class="pillar-card">
+              <div class="pillar-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
+                  <path d="M6 6h10" />
+                  <path d="M6 10h10" />
+                </svg>
+              </div>
+              <h3 class="pillar-title">University Education</h3>
+              <p class="pillar-desc">Delta Technological University · IT Software Development Program</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <rect width="18" height="18" x="3" y="3" rx="2" />
+                  <path d="m9 8 6 4-6 4Z" />
+                </svg>
+              </div>
+              <h3 class="pillar-title">Core Backend Stack</h3>
+              <p class="pillar-desc">C#, .NET Platform, ASP.NET Core, RESTful Web APIs</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                  <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" />
+                </svg>
+              </div>
+              <h3 class="pillar-title">Database &amp; Storage</h3>
+              <p class="pillar-desc">Microsoft SQL Server, T-SQL, EF Core ORM &amp; Relations</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <circle cx="12" cy="12" r="3" />
+                  <path
+                    d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+                </svg>
+              </div>
+              <h3 class="pillar-title">Architectural Focus</h3>
+              <p class="pillar-desc">Clean Architecture, Business Rules, Data Flow &amp; API Integrity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Current Focus Section -->
+    <section id="focus" class="section focus-section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Active Study</span>
+          <h2 class="section-title">Current Focus</h2>
+          <p class="section-subtitle">Currently focused on building a strong foundation in .NET Backend Development.</p>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="focus-cards-grid">
+          <!-- Focus Card 1: C# -->
+          <div class="focus-card reveal-slide-up">
+            <div class="focus-card-header">
+              <div class="tech-icon-container tech-csharp" aria-hidden="true">
+                <span>C#</span>
+              </div>
+              <span class="study-badge">Currently Learning</span>
+            </div>
+            <h3 class="focus-card-title">C#</h3>
+            <p class="focus-card-desc">
+              Strong typing, Object-Oriented principles, LINQ queries, asynchronous programming (`async`/`await`),
+              generics, and memory management fundamentals.
+            </p>
+            <ul class="focus-topics-list">
+              <li>OOP &amp; Inheritance</li>
+              <li>LINQ &amp; Collections</li>
+              <li>Async / Await Patterns</li>
+            </ul>
+          </div>
+
+          <!-- Focus Card 2: .NET -->
+          <div class="focus-card reveal-slide-up">
+            <div class="focus-card-header">
+              <div class="tech-icon-container tech-dotnet" aria-hidden="true">
+                <span>.NET</span>
+              </div>
+              <span class="study-badge">Currently Learning</span>
+            </div>
+            <h3 class="focus-card-title">.NET</h3>
+            <p class="focus-card-desc">
+              Cross-platform CLR runtime, CLI tooling, project structure, Dependency Injection (DI) container,
+              configuration management, and middleware lifecycle.
+            </p>
+            <ul class="focus-topics-list">
+              <li>Dependency Injection</li>
+              <li>Middleware Pipeline</li>
+              <li>Configuration &amp; Logging</li>
+            </ul>
+          </div>
+
+          <!-- Focus Card 3: ASP.NET Core -->
+          <div class="focus-card reveal-slide-up">
+            <div class="focus-card-header">
+              <div class="tech-icon-container tech-aspnet" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="14" x="2" y="3" rx="2" />
+                  <line x1="8" x2="16" y1="21" y2="21" />
+                  <line x1="12" x2="12" y1="17" y2="21" />
+                </svg>
+              </div>
+              <span class="study-badge">Currently Learning</span>
+            </div>
+            <h3 class="focus-card-title">ASP.NET Core</h3>
+            <p class="focus-card-desc">
+              Modern server framework for building scalable web applications, controller architectures, request routing,
+              filters, model validation, and clean design.
+            </p>
+            <ul class="focus-topics-list">
+              <li>Controllers &amp; Endpoints</li>
+              <li>Request Processing</li>
+              <li>Clean Architecture</li>
+            </ul>
+          </div>
+
+          <!-- Focus Card 4: Web APIs -->
+          <div class="focus-card reveal-slide-up">
+            <div class="focus-card-header">
+              <div class="tech-icon-container tech-api" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m18 16 4-4-4-4" />
+                  <path d="m6 8-4 4 4 4" />
+                  <path d="m14.5 4-5 16" />
+                </svg>
+              </div>
+              <span class="study-badge">Currently Learning</span>
+            </div>
+            <h3 class="focus-card-title">Web APIs (RESTful)</h3>
+            <p class="focus-card-desc">
+              Designing standardized RESTful HTTP services, standard status codes, JSON payload serialization, DTO
+              mappings, and API error response handling.
+            </p>
+            <ul class="focus-topics-list">
+              <li>HTTP Verbs &amp; Statuses</li>
+              <li>DTO Pattern &amp; Mapping</li>
+              <li>Input Validation</li>
+            </ul>
+          </div>
+
+          <!-- Focus Card 5: Entity Framework Core -->
+          <div class="focus-card reveal-slide-up">
+            <div class="focus-card-header">
+              <div class="tech-icon-container tech-ef" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                </svg>
+              </div>
+              <span class="study-badge">Currently Learning</span>
+            </div>
+            <h3 class="focus-card-title">Entity Framework Core</h3>
+            <p class="focus-card-desc">
+              Object-Relational Mapping (ORM), DbContext configuration, Code-First database migrations, entity
+              relationship modeling (1:1, 1:N, N:N), and LINQ-to-Entities.
+            </p>
+            <ul class="focus-topics-list">
+              <li>Code-First Migrations</li>
+              <li>Relationship Modeling</li>
+              <li>Data Access Optimization</li>
+            </ul>
+          </div>
+
+          <!-- Focus Card 6: SQL Server -->
+          <div class="focus-card reveal-slide-up">
+            <div class="focus-card-header">
+              <div class="tech-icon-container tech-sql" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                  <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" />
+                </svg>
+              </div>
+              <span class="study-badge">Currently Learning</span>
+            </div>
+            <h3 class="focus-card-title">SQL Server</h3>
+            <p class="focus-card-desc">
+              Enterprise relational database design, complex T-SQL queries, normalization, JOINs, Stored Procedures,
+              Functions, Indexing strategies, and ACID Transactions.
+            </p>
+            <ul class="focus-topics-list">
+              <li>T-SQL &amp; Stored Procedures</li>
+              <li>Indexing &amp; Optimization</li>
+              <li>Transactions &amp; Integrity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Core Skills</h2>
+          <p class="section-subtitle">Structured technical skills focused on backend systems, databases, and core
+            computer science.</p>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="skills-layout-grid">
+          <!-- Skill Category 1: Backend Development (Dominant) -->
+          <div class="skill-category-card skill-cat-backend reveal-slide-up">
+            <div class="skill-category-header">
+              <div class="category-title-group">
+                <div class="category-icon-box">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+                    <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+                    <line x1="6" x2="6.01" y1="6" y2="6" />
+                    <line x1="6" x2="6.01" y1="18" y2="18" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="category-name">Backend Development</h3>
+                  <span class="category-indicator">Primary Specialization</span>
+                </div>
+              </div>
+              <span class="status-badge-inline">Currently Learning</span>
+            </div>
+
+            <div class="skills-badges-wrap">
+              <span class="skill-badge badge-primary"><span class="badge-accent-dot"></span>C#</span>
+              <span class="skill-badge badge-primary"><span class="badge-accent-dot"></span>.NET</span>
+              <span class="skill-badge badge-primary"><span class="badge-accent-dot"></span>ASP.NET Core</span>
+              <span class="skill-badge badge-primary"><span class="badge-accent-dot"></span>Web APIs</span>
+              <span class="skill-badge badge-primary"><span class="badge-accent-dot"></span>REST APIs</span>
+              <span class="skill-badge badge-primary"><span class="badge-accent-dot"></span>Entity Framework Core</span>
+              <span class="skill-badge badge-primary"><span class="badge-accent-dot"></span>Backend Development</span>
+              <span class="skill-badge badge-primary"><span class="badge-accent-dot"></span>Backend Architecture
+                Fundamentals</span>
+            </div>
+          </div>
+
+          <!-- Skill Category 2: Database & SQL Server (High Visual Prominence) -->
+          <div class="skill-category-card skill-cat-database reveal-slide-up">
+            <div class="skill-category-header">
+              <div class="category-title-group">
+                <div class="category-icon-box cat-icon-sql">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <ellipse cx="12" cy="5" rx="9" ry="3" />
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                    <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="category-name">Database &amp; SQL Server</h3>
+                  <span class="category-indicator">Data Architecture &amp; Queries</span>
+                </div>
+              </div>
+              <span class="status-badge-inline badge-sql">Academic &amp; Practical</span>
+            </div>
+
+            <div class="skills-badges-wrap">
+              <span class="skill-badge badge-sql-primary"><span class="badge-accent-dot-sql"></span>SQL Server</span>
+              <span class="skill-badge badge-sql-primary"><span class="badge-accent-dot-sql"></span>SQL</span>
+              <span class="skill-badge badge-sql-item">Database Design</span>
+              <span class="skill-badge badge-sql-item">ERD</span>
+              <span class="skill-badge badge-sql-item">Normalization</span>
+              <span class="skill-badge badge-sql-item">CRUD Operations</span>
+              <span class="skill-badge badge-sql-item">JOINs</span>
+              <span class="skill-badge badge-sql-item">Subqueries</span>
+              <span class="skill-badge badge-sql-item">Views</span>
+              <span class="skill-badge badge-sql-item">Stored Procedures</span>
+              <span class="skill-badge badge-sql-item">Functions</span>
+              <span class="skill-badge badge-sql-item">Triggers</span>
+              <span class="skill-badge badge-sql-item">Indexes</span>
+              <span class="skill-badge badge-sql-item">Transactions</span>
+              <span class="skill-badge badge-sql-item">Constraints</span>
+              <span class="skill-badge badge-sql-item">Execution Plans</span>
+            </div>
+          </div>
+
+          <!-- Skill Category 3: Programming Fundamentals -->
+          <div class="skill-category-card skill-cat-fundamentals reveal-slide-up">
+            <div class="skill-category-header">
+              <div class="category-title-group">
+                <div class="category-icon-box">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <polyline points="16 18 22 12 16 6" />
+                    <polyline points="8 6 2 12 8 18" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="category-name">Programming Fundamentals</h3>
+                  <span class="category-indicator">Core Computer Science</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-badges-wrap">
+              <span class="skill-badge badge-neutral">Object-Oriented Programming (OOP)</span>
+              <span class="skill-badge badge-neutral">Data Structures</span>
+              <span class="skill-badge badge-neutral">Algorithms</span>
+              <span class="skill-badge badge-neutral">Problem Solving</span>
+            </div>
+          </div>
+
+          <!-- Skill Category 4: Supporting Technologies (Visually Smaller) -->
+          <div class="skill-category-card skill-cat-supporting reveal-slide-up">
+            <div class="skill-category-header">
+              <div class="category-title-group">
+                <div class="category-icon-box">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="2" y1="12" x2="22" y2="12" />
+                    <path
+                      d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="category-name font-compact">Supporting Technologies</h3>
+                  <span class="category-indicator">Tools &amp; Web Basics</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-badges-wrap compact-badges">
+              <span class="skill-badge badge-subtle">Git</span>
+              <span class="skill-badge badge-subtle">GitHub</span>
+              <span class="skill-badge badge-subtle">HTML</span>
+              <span class="skill-badge badge-subtle">CSS</span>
+              <span class="skill-badge badge-subtle">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning Path / Interactive Roadmap Section -->
+    <section id="roadmap" class="section roadmap-section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Learning Path</span>
+          <h2 class="section-title">Backend Roadmap</h2>
+          <p class="section-subtitle">An active learning roadmap showing key milestones toward becoming a skilled Junior
+            .NET Backend Developer.</p>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="roadmap-wrapper reveal-slide-up">
+          <div class="roadmap-timeline-track" aria-hidden="true"></div>
+
+          <div class="roadmap-milestones">
+            <!-- Step 1: C# -->
+            <div class="roadmap-node completed-step">
+              <div class="node-marker" aria-hidden="true">
+                <span class="step-num">01</span>
+              </div>
+              <div class="node-content">
+                <span class="step-badge">Foundation</span>
+                <h3 class="step-title">C#</h3>
+                <p class="step-text">Syntax, OOP, Collections, LINQ, Async/Await.</p>
+              </div>
+            </div>
+
+            <!-- Step 2: .NET -->
+            <div class="roadmap-node completed-step">
+              <div class="node-marker" aria-hidden="true">
+                <span class="step-num">02</span>
+              </div>
+              <div class="node-content">
+                <span class="step-badge">Platform</span>
+                <h3 class="step-title">.NET</h3>
+                <p class="step-text">CLR, CLI, Dependency Injection &amp; Configuration.</p>
+              </div>
+            </div>
+
+            <!-- Step 3: ASP.NET Core -->
+            <div class="roadmap-node active-step">
+              <div class="node-marker" aria-hidden="true">
+                <span class="pulse-ring"></span>
+                <span class="step-num">03</span>
+              </div>
+              <div class="node-content">
+                <span class="step-badge badge-active">Actively Studying</span>
+                <h3 class="step-title">ASP.NET Core</h3>
+                <p class="step-text">Controllers, Middleware pipeline, Routing &amp; Filters.</p>
+              </div>
+            </div>
+
+            <!-- Step 4: RESTful Web APIs -->
+            <div class="roadmap-node active-step">
+              <div class="node-marker" aria-hidden="true">
+                <span class="pulse-ring"></span>
+                <span class="step-num">04</span>
+              </div>
+              <div class="node-content">
+                <span class="step-badge badge-active">Actively Studying</span>
+                <h3 class="step-title">RESTful Web APIs</h3>
+                <p class="step-text">Endpoints design, DTOs, HTTP standards &amp; status codes.</p>
+              </div>
+            </div>
+
+            <!-- Step 5: Entity Framework Core -->
+            <div class="roadmap-node active-step">
+              <div class="node-marker" aria-hidden="true">
+                <span class="pulse-ring"></span>
+                <span class="step-num">05</span>
+              </div>
+              <div class="node-content">
+                <span class="step-badge badge-active">Actively Studying</span>
+                <h3 class="step-title">Entity Framework Core</h3>
+                <p class="step-text">DbContext, Code-First migrations, Relationships &amp; LINQ.</p>
+              </div>
+            </div>
+
+            <!-- Step 6: SQL Server -->
+            <div class="roadmap-node active-step">
+              <div class="node-marker" aria-hidden="true">
+                <span class="pulse-ring"></span>
+                <span class="step-num">06</span>
+              </div>
+              <div class="node-content">
+                <span class="step-badge badge-active">Actively Studying</span>
+                <h3 class="step-title">SQL Server</h3>
+                <p class="step-text">Schema design, T-SQL, Stored Procedures &amp; Transactions.</p>
+              </div>
+            </div>
+
+            <!-- Step 7: Backend Projects -->
+            <div class="roadmap-node upcoming-step">
+              <div class="node-marker" aria-hidden="true">
+                <span class="step-num">07</span>
+              </div>
+              <div class="node-content">
+                <span class="step-badge">Next Milestone</span>
+                <h3 class="step-title">Backend Projects</h3>
+                <p class="step-text">Building real-world API services &amp; database applications.</p>
+              </div>
+            </div>
+
+            <!-- Step 8: Junior .NET Backend Developer -->
+            <div class="roadmap-node goal-step">
+              <div class="node-marker" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+                  <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+                  <path d="M4 22h16" />
+                  <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" />
+                  <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" />
+                  <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+                </svg>
+              </div>
+              <div class="node-content">
+                <span class="step-badge badge-target">Target Career Goal</span>
+                <h3 class="step-title">Junior .NET Backend Developer</h3>
+                <p class="step-text">Ready for professional backend contributions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects & Building Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Planned Work</span>
+          <h2 class="section-title">Projects &amp; Building</h2>
+          <p class="section-subtitle">Planned backend projects currently being structured to apply theoretical knowledge
+            into clean, runnable code.</p>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="projects-cards-grid">
+          <!-- Project 01 -->
+          <article class="project-card reveal-slide-up">
+            <div class="project-card-header">
+              <div class="project-indicator">
+                <span class="project-number">Project 01</span>
+                <span class="status-pill status-coming-soon">Coming Soon</span>
+              </div>
+              <div class="project-icon-art" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 10h4a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h4" />
+                  <polyline points="14 4 18 8 14 12" />
+                  <line x1="18" x2="6" y1="8" y2="8" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">RESTful Web API</h3>
+              <p class="project-desc">
+                A planned ASP.NET Core Web API project focused on API design, request routing, standard CRUD operations,
+                model validation, and clean backend architecture.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">ASP.NET Core</span>
+                <span class="tech-tag">Web API</span>
+                <span class="tech-tag">REST</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="btn-disabled-wrapper" title="Repository in planning stage">
+                <span class="btn-coming-soon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"
+                    aria-hidden="true">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
+                  <span>GitHub — Coming Soon</span>
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02 -->
+          <article class="project-card reveal-slide-up">
+            <div class="project-card-header">
+              <div class="project-indicator">
+                <span class="project-number">Project 02</span>
+                <span class="status-pill status-coming-soon">Coming Soon</span>
+              </div>
+              <div class="project-icon-art" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                  <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Database-Driven Backend</h3>
+              <p class="project-desc">
+                A planned backend application focused on SQL Server, Entity Framework Core, complex database
+                relationships, CRUD operations, and optimized data access layers.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">ASP.NET Core</span>
+                <span class="tech-tag">EF Core</span>
+                <span class="tech-tag">SQL Server</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="btn-disabled-wrapper" title="Repository in planning stage">
+                <span class="btn-coming-soon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"
+                    aria-hidden="true">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
+                  <span>GitHub — Coming Soon</span>
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03 -->
+          <article class="project-card reveal-slide-up">
+            <div class="project-card-header">
+              <div class="project-indicator">
+                <span class="project-number">Project 03</span>
+                <span class="status-pill status-coming-soon">Coming Soon</span>
+              </div>
+              <div class="project-icon-art" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="8" cy="21" r="1" />
+                  <circle cx="19" cy="21" r="1" />
+                  <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+                </svg>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">E-Commerce Backend API</h3>
+              <p class="project-desc">
+                A planned comprehensive backend system involving product catalogs, users, orders, domain entities,
+                relational integrity, business logic, and RESTful APIs.
+              </p>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">ASP.NET Core</span>
+                <span class="tech-tag">EF Core</span>
+                <span class="tech-tag">SQL Server</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <div class="btn-disabled-wrapper" title="Repository in planning stage">
+                <span class="btn-coming-soon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"
+                    aria-hidden="true">
+                    <path
+                      d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
+                  <span>GitHub — Coming Soon</span>
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning Journey Section -->
+    <section id="journey" class="section journey-section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Academic Progression</span>
+          <h2 class="section-title">Learning Journey</h2>
+          <p class="section-subtitle">How my computer science studies evolved into a focused specialization in Microsoft
+            .NET backend engineering.</p>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="journey-timeline">
+          <!-- Journey Step 1 -->
+          <div class="journey-card reveal-slide-up">
+            <div class="journey-step-marker">
+              <span class="marker-dot"></span>
+              <span class="journey-step-number">Phase 01</span>
+            </div>
+            <div class="journey-card-body">
+              <div class="journey-badge-row">
+                <span class="journey-phase-badge">Academic Experience</span>
+              </div>
+              <h3 class="journey-stage-title">Programming Foundation</h3>
+              <p class="journey-stage-desc">
+                Academic foundation in computer science and software development covering fundamental programming
+                concepts, syntax, and problem-solving strategies.
+              </p>
+              <div class="journey-tags">
+                <span class="journey-tag">Programming Fundamentals</span>
+                <span class="journey-tag">C</span>
+                <span class="journey-tag">C++</span>
+                <span class="journey-tag">Java</span>
+                <span class="journey-tag">Python</span>
+                <span class="journey-tag">Problem Solving</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Journey Step 2 -->
+          <div class="journey-card reveal-slide-up">
+            <div class="journey-step-marker">
+              <span class="marker-dot"></span>
+              <span class="journey-step-number">Phase 02</span>
+            </div>
+            <div class="journey-card-body">
+              <div class="journey-badge-row">
+                <span class="journey-phase-badge badge-sql">Academic &amp; Practical Focus</span>
+              </div>
+              <h3 class="journey-stage-title">Database Development</h3>
+              <p class="journey-stage-desc">
+                Deep academic study of relational database management systems, data modeling, T-SQL scripting,
+                normalization, queries, procedural database programming, and data integrity.
+              </p>
+              <div class="journey-tags">
+                <span class="journey-tag tag-sql">SQL</span>
+                <span class="journey-tag tag-sql">SQL Server</span>
+                <span class="journey-tag tag-sql">Database Design</span>
+                <span class="journey-tag tag-sql">ERD</span>
+                <span class="journey-tag tag-sql">Normalization</span>
+                <span class="journey-tag tag-sql">JOINs</span>
+                <span class="journey-tag tag-sql">Stored Procedures</span>
+                <span class="journey-tag tag-sql">Functions</span>
+                <span class="journey-tag tag-sql">Indexes</span>
+                <span class="journey-tag tag-sql">Transactions</span>
+                <span class="journey-tag tag-sql">Execution Plans</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Journey Step 3 (Dominant) -->
+          <div class="journey-card journey-card-highlight reveal-slide-up">
+            <div class="journey-step-marker">
+              <span class="marker-dot pulse"></span>
+              <span class="journey-step-number text-highlight">Phase 03 · Current</span>
+            </div>
+            <div class="journey-card-body">
+              <div class="journey-badge-row">
+                <span class="journey-phase-badge badge-dominant">Currently Learning · Dominant Focus</span>
+              </div>
+              <h3 class="journey-stage-title">.NET Backend Development</h3>
+              <p class="journey-stage-desc">
+                Intensive active focus on server-side engineering with the modern Microsoft .NET ecosystem, developing
+                expertise in C#, RESTful Web APIs, Entity Framework Core ORM, and enterprise SQL Server integration.
+              </p>
+              <div class="journey-tags">
+                <span class="journey-tag tag-dominant">C#</span>
+                <span class="journey-tag tag-dominant">.NET</span>
+                <span class="journey-tag tag-dominant">ASP.NET Core</span>
+                <span class="journey-tag tag-dominant">Web APIs</span>
+                <span class="journey-tag tag-dominant">Entity Framework Core</span>
+                <span class="journey-tag tag-dominant">SQL Server</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Backend Development? Section -->
+    <section id="why-backend" class="section why-section">
+      <div class="container">
+        <div class="why-card-featured reveal-slide-up">
+          <div class="why-quote-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+            </svg>
+          </div>
+
+          <div class="why-header">
+            <span class="section-tag">Engineering Philosophy</span>
+            <h2 class="why-title">Why Backend Development?</h2>
+          </div>
+
+          <blockquote class="why-quote-text">
+            "I chose Backend Development because I enjoy understanding what happens behind the user interface. I am
+            interested in how business logic works, how APIs communicate with applications, how data is stored and
+            retrieved, and how different components work together to build a complete software system."
+          </blockquote>
+
+          <div class="why-pillars-row">
+            <div class="why-pill">
+              <span class="pill-dot"></span>
+              <span>Business Logic &amp; Rules</span>
+            </div>
+            <div class="why-pill">
+              <span class="pill-dot"></span>
+              <span>Data Integrity &amp; Storage</span>
+            </div>
+            <div class="why-pill">
+              <span class="pill-dot"></span>
+              <span>Robust API Communication</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Supporting Knowledge Section -->
+    <section id="supporting" class="section supporting-section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Foundations</span>
+          <h2 class="section-title">Supporting Knowledge</h2>
+          <p class="section-subtitle">Fundamental software engineering and computing principles reinforcing backend
+            architecture.</p>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="supporting-cards-grid">
+          <div class="supporting-item-card reveal-slide-up">
+            <div class="support-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <rect width="8" height="8" x="2" y="2" rx="1" />
+                <rect width="8" height="8" x="14" y="2" rx="1" />
+                <rect width="8" height="8" x="2" y="14" rx="1" />
+                <rect width="8" height="8" x="14" y="14" rx="1" />
+              </svg>
+            </div>
+            <h3 class="support-title">Programming Fundamentals</h3>
+            <p class="support-desc">Core syntax, control flow, problem solving, and procedural structure.</p>
+          </div>
+
+          <div class="supporting-item-card reveal-slide-up">
+            <div class="support-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M16 16v1a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v1" />
+                <path d="M18 8h4a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-4" />
+              </svg>
+            </div>
+            <h3 class="support-title">Object-Oriented Programming</h3>
+            <p class="support-desc">Encapsulation, inheritance, polymorphism, and abstraction principles.</p>
+          </div>
+
+          <div class="supporting-item-card reveal-slide-up">
+            <div class="support-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <line x1="12" y1="20" x2="12" y2="10" />
+                <line x1="18" y1="20" x2="18" y2="4" />
+                <line x1="6" y1="20" x2="6" y2="16" />
+              </svg>
+            </div>
+            <h3 class="support-title">Data Structures</h3>
+            <p class="support-desc">Arrays, Lists, Stacks, Queues, Hash Tables, and Tree structures.</p>
+          </div>
+
+          <div class="supporting-item-card reveal-slide-up">
+            <div class="support-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <circle cx="18" cy="18" r="3" />
+                <circle cx="6" cy="6" r="3" />
+                <path d="M6 21V9a9 9 0 0 0 9 9" />
+              </svg>
+            </div>
+            <h3 class="support-title">Algorithms</h3>
+            <p class="support-desc">Searching, sorting, recursion, and time/space complexity analysis.</p>
+          </div>
+
+          <div class="supporting-item-card reveal-slide-up">
+            <div class="support-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                <path d="M2 12h20" />
+              </svg>
+            </div>
+            <h3 class="support-title">Basic Networking Concepts</h3>
+            <p class="support-desc">HTTP/HTTPS protocols, TCP/IP basics, request/response cycles, and DNS.</p>
+          </div>
+
+          <div class="supporting-item-card reveal-slide-up">
+            <div class="support-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <rect width="20" height="14" x="2" y="3" rx="2" />
+                <line x1="2" x2="22" y1="13" y2="13" />
+              </svg>
+            </div>
+            <h3 class="support-title">Basic Operating Systems</h3>
+            <p class="support-desc">Processes, threads, memory concepts, and file system basics.</p>
+          </div>
+
+          <div class="supporting-item-card reveal-slide-up">
+            <div class="support-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+              </svg>
+            </div>
+            <h3 class="support-title">Software Engineering</h3>
+            <p class="support-desc">Clean code practices, DRY principle, separation of concerns, and version control.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Career Objective Section -->
+    <section id="objective" class="section objective-section">
+      <div class="container">
+        <div class="objective-card-wrapper reveal-slide-up">
+          <div class="objective-header">
+            <span class="section-tag">Long-Term Vision</span>
+            <h2 class="objective-title">Career Objective</h2>
+          </div>
+
+          <div class="objective-content">
+            <p class="objective-statement">
+              "My goal is to become a strong <strong class="text-highlight">.NET Backend Developer</strong> by
+              developing a deep understanding of <strong class="text-highlight">C#</strong>, <strong
+                class="text-highlight">ASP.NET Core</strong>, <strong class="text-highlight">Web APIs</strong>, <strong
+                class="text-highlight">Entity Framework Core</strong>, and <strong class="text-highlight">SQL
+                Server</strong>.
+            </p>
+            <p class="objective-statement">
+              I aim to transform my academic knowledge into practical experience through real-world projects,
+              continuously improve my skills in backend development, databases, API design, and software architecture,
+              and eventually contribute to building reliable, scalable, and maintainable software systems."
+            </p>
+          </div>
+
+          <div class="objective-footer">
+            <div class="candidate-signature">
+              <span class="signature-name">Taher El-Sayed</span>
+              <span class="signature-title">Information Technology Student · Delta Technological University</span>
+            </div>
+            <a href="#contact" class="btn btn-primary">Connect with Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header reveal-fade">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">
+            I am currently developing my skills in .NET Backend Development and always interested in learning,
+            connecting with developers, and exploring future opportunities.
+          </p>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Contact Methods & Socials -->
+          <div class="contact-methods-column reveal-slide-up">
+            <!-- Direct WhatsApp Card -->
+            <div class="contact-card whatsapp-featured-card">
+              <div class="card-icon-whatsapp">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"
+                  aria-hidden="true">
+                  <path
+                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                </svg>
+              </div>
+              <div class="whatsapp-card-info">
+                <span class="card-kicker">Fastest Way to Reach Me</span>
+                <h3 class="whatsapp-title">Direct on WhatsApp</h3>
+                <p class="whatsapp-subtext">+20 10 9496 6547</p>
+                <a href="https://wa.me/201094966547" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp"
+                  aria-label="Chat on WhatsApp with Taher El-Sayed">
+                  <span>Chat on WhatsApp</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" x2="21" y1="14" y2="3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Social Links Group -->
+            <div class="contact-card social-profiles-card">
+              <h3 class="social-section-title">Profiles &amp; Links</h3>
+
+              <ul class="social-list">
+                <!-- WhatsApp Priority -->
+                <li class="social-item">
+                  <a href="https://wa.me/201094966547" target="_blank" rel="noopener noreferrer" class="social-link"
+                    aria-label="WhatsApp Contact (+20 10 9496 6547)">
+                    <div class="social-icon icon-wa">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                          d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                      </svg>
+                    </div>
+                    <div class="social-text">
+                      <span class="social-platform">WhatsApp</span>
+                      <span class="social-handle">+20 10 9496 6547</span>
+                    </div>
+                  </a>
+                </li>
+
+                <!-- LinkedIn Priority -->
+                <li class="social-item">
+                  <a href="https://www.linkedin.com/in/taher-el-sayed-attia-5bbb92278?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    target="_blank" rel="noopener noreferrer" class="social-link"
+                    aria-label="LinkedIn Profile: Taher El-Sayed Attia">
+                    <div class="social-icon icon-li">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                          d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                      </svg>
+                    </div>
+                    <div class="social-text">
+                      <span class="social-platform">LinkedIn</span>
+                      <span class="social-handle">Taher El-Sayed Attia</span>
+                    </div>
+                  </a>
+                </li>
+
+                <!-- GitHub Priority -->
+                <li class="social-item">
+                  <a href="https://github.com/Taher-harbe" target="_blank" rel="noopener noreferrer" class="social-link"
+                    aria-label="GitHub Profile: Taher-harbe">
+                    <div class="social-icon icon-gh">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                          d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                      </svg>
+                    </div>
+                    <div class="social-text">
+                      <span class="social-platform">GitHub</span>
+                      <span class="social-handle">Taher-harbe</span>
+                    </div>
+                  </a>
+                </li>
+
+                <!-- YouTube Secondary -->
+                <li class="social-item secondary-social">
+                  <a href="#contact" class="social-link" aria-label="YouTube Channel (Coming Soon)">
+                    <div class="social-icon icon-yt">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                          d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                      </svg>
+                    </div>
+                    <div class="social-text">
+                      <span class="social-platform">YouTube</span>
+                      <span class="social-handle">Secondary Profile</span>
+                    </div>
+                  </a>
+                </li>
+
+                <!-- Facebook Secondary -->
+                <li class="social-item secondary-social">
+                  <a href="#contact" class="social-link" aria-label="Facebook Profile (Coming Soon)">
+                    <div class="social-icon icon-fb">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                          d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.5 5H18V0h-3.808C10.595 0 9 1.582 9 4.615V8z" />
+                      </svg>
+                    </div>
+                    <div class="social-text">
+                      <span class="social-platform">Facebook</span>
+                      <span class="social-handle">Secondary Profile</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right Column: Clean HTML-only Form -->
+          <div class="contact-form-column reveal-slide-up">
+            <div class="contact-card form-card">
+              <h3 class="form-title">Send a Message</h3>
+              <p class="form-subtitle">Feel free to leave your contact info and message below:</p>
+
+              <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="name" class="form-label">Your Name <span class="required-mark"
+                      aria-hidden="true">*</span></label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Ahmed Ali" required
+                    aria-required="true">
+                  <span class="input-error" id="nameError" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Your Email <span class="required-mark"
+                      aria-hidden="true">*</span></label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. ahmed@example.com"
+                    required aria-required="true">
+                  <span class="input-error" id="emailError" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Message <span class="required-mark"
+                      aria-hidden="true">*</span></label>
+                  <textarea id="message" name="message" class="form-textarea" rows="5"
+                    placeholder="Write your message here..." required aria-required="true"></textarea>
+                  <span class="input-error" id="messageError" aria-live="polite"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                  <span>Send Message</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <line x1="22" x2="11" y1="2" y2="13" />
+                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                  </svg>
+                </button>
+
+                <div id="formFeedback" class="form-feedback" aria-live="polite" style="display: none;"></div>
+
+                <p class="form-footer-note">
+                  * Note: Direct connection via WhatsApp or LinkedIn is recommended for fastest communication.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/201094966547" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn"
+    id="floatingWhatsapp" aria-label="Chat directly on WhatsApp with Taher El-Sayed (+20 10 9496 6547)">
+    <svg class="whatsapp-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+      fill="currentColor" aria-hidden="true">
+      <path
+        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+    </svg>
+    <span class="floating-tooltip">Chat on WhatsApp</span>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" class="back-to-top-btn" type="button" aria-label="Back to top of page" title="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top-row">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo" aria-label="Taher El-Sayed Home">
+            <span class="logo-bracket">&lt;</span><span class="logo-name">Taher</span><span
+              class="logo-slash">/&gt;</span>
+            <span class="logo-badge">.NET</span>
+          </a>
+          <p class="footer-tagline">Aspiring .NET Backend Developer · Delta Technological University</p>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#focus">Focus</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom-row">
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> <strong>Taher El-Sayed</strong>. All rights reserved.
+        </p>
+        <p class="footer-built-with">
+          Focused on <span>C#</span> · <span>.NET</span> · <span>ASP.NET Core</span> · <span>SQL Server</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
