@@ -948,8 +948,8 @@ img {
 
 /* About Pillars Grid */
 .about-pillars-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 1.25rem;
 }
 
@@ -1150,6 +1150,10 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+}
+
+.skill-cat-backend {
+  grid-column: 1 / -1;
 }
 
 .skill-category-card {
